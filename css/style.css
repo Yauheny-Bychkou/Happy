@@ -7,6 +7,18 @@ body {
   background-color: #FFFFFF;
   color: #183B56;
 }
+.listay {
+  position: absolute;
+  bottom: -10%;
+  right: 20px;
+  color: #ffffff;
+  font-size: 24px;
+  line-height: 48px;
+  letter-spacing: 0.2px;
+  margin: 0 0 60px 0;
+  color: #FFFFFF;
+  font-family: 'Roboto Condensed', sans-serif;
+}
 .salut {
   background: #082330;
 	background-size: 0.12em 100%;
