@@ -8,6 +8,7 @@ body {
   color: #183B56;
 }
 .listay {
+  opacity: 0.1;
   position: absolute;
   bottom: -12%;
   right: 20px;
