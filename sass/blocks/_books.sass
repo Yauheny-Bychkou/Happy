@@ -1,0 +1,69 @@
+.books
+  background-color: $font-black
+  color: $light
+  position: relative
+  &__container
+    padding-top: 62px
+    padding-bottom: 80px
+  &-container
+    &__title
+      font-size: 36px
+      line-height: 48px
+      letter-spacing: 0.2px
+      margin: 0 0 60px 0
+      color: $light
+      overflow: hidden
+      white-space: nowrap
+      text-overflow: ellipsis
+    &__prev
+      position: absolute
+      width: 54px
+      height: 56px
+      top: 58px
+      right: 78px
+      border: 2px solid $light
+      border-radius: 50%
+      display: flex
+      flex-direction: column
+      align-items: center
+      justify-content: center
+      +hover
+        background-color: $light
+        border-color: $light
+    &__next
+      position: absolute
+      width: 54px
+      height: 56px
+      top: 58px
+      right: 0
+      border: 2px solid $light
+      border-radius: 50%
+      display: flex
+      flex-direction: column
+      align-items: center
+      justify-content: center
+      +hover
+        background-color: $light
+        border-color: $light
+    &__button
+      cursor: pointer
+      &-large
+        fill: $light
+      &-small
+        display: none
+        fill: $light
+      &-disabled
+        border: 2px solid #5A7184
+      &-disabled svg
+        fill: #5A7184
+  &-wrapper
+    &__slide
+      max-width: 204px
+      height: 298px
+      border-radius: 8px
+      overflow: hidden
+    &__image
+      background-color: transparent
+      width: 100%
+      height: 100%
+      object-fit: cover

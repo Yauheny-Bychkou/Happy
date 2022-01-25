@@ -1,0 +1,83 @@
+.sections
+  &-wrap
+    position: relative
+    max-width: 1170px
+    margin: 0 auto
+    &__button
+      position: absolute
+      cursor: pointer
+      width: 56px
+      height: 56px
+      border-radius: 50%
+      display: flex
+      flex-direction: column
+      align-items: center
+      justify-content: center
+      box-shadow: 0 5px 5px 0 rgba(0,0,0,0.1)
+      background-color: $light
+      z-index: 99
+      +hover
+        background-color: $button-blue
+      &-hidden
+        display: none !important
+      &-next
+        right: 14px
+        top: 50%
+        transform: translate(48%, -56%)
+      &-prev
+        left: 0
+        top: 50%
+        transform: translate(-33%, -56%)
+      &-large
+        fill: #183B56
+      &-small
+        display: none
+        cursor: pointer
+        fill: #183B56
+  &__container
+    padding-top: 60px
+    padding-bottom: 99px 
+  &-wrapper
+    &__slide
+      padding-top: 40px
+      padding-bottom: 30px
+      border: 1px solid $border
+      border-radius: 8px
+      display: flex
+      flex-direction: column
+      align-items: center
+    &__image
+      margin-bottom: 40px
+      &-small
+        display: none
+    &__title
+      margin: 0 0 9px 0
+      font-family: 'Roboto', sans-serif
+      font-weight: 500
+      font-style: normal
+      font-size: 22px
+      line-height: 32px
+      letter-spacing: 0.2px
+      overflow: hidden
+      white-space: wrap
+      text-overflow: ellipsis
+      max-width: 250px
+    &__description
+      font-family: 'Open Sans', sans-serif
+      font-weight: 400
+      font-style: normal
+      font-size: 16px
+      line-height: 22px
+      overflow: hidden
+      white-space: wrap
+      text-overflow: ellipsis
+      max-width: 250px
+    
+     
+      
+      
+  
+     
+      
+ 
+    
